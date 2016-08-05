@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 public class PrefectureService {
     public Position getPosition(String Position) {
         RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<Position> weatherResponseEntity = restTemplate.getForEntity("https://fast-reef-14433.herokuapp.com/prefectures", Position.class);
+        ResponseEntity<Position> weatherResponseEntity = restTemplate.getForEntity("https://fast-reef-14433.herokuapp.com/prefecture", Position.class);
         return weatherResponseEntity.getBody();
     }
 }
