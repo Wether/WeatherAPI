@@ -1,1 +1,1 @@
-# WetherAPI
+# WeatherAPI
