@@ -8,5 +8,5 @@ import lombok.Data;
 @Data
 public class Position {
     private String lat;
-    private String lon;
+    private String lng;
 }
